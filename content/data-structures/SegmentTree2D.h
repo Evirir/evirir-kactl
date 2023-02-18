@@ -1,3 +1,7 @@
+/**
+ * Author: Evirir
+ * Description: rawr o.=.o
+ */
 #pragma once
 
 class SegmentTree2D {

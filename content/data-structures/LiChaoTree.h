@@ -1,3 +1,7 @@
+/**
+ * Author: Evirir (based on CP-algorithms)
+ * Description: rawr o.=.o
+ */
 #pragma once
 
 struct Line {

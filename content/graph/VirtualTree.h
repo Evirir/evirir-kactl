@@ -1,3 +1,7 @@
+/**
+ * Author: Evirir
+ * Description: rawr o.=.o
+ */
 #pragma once
 
 int buildVirtualTree(vector<int> nodes, vi vadj[])

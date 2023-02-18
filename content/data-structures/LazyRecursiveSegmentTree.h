@@ -1,3 +1,9 @@
+/**
+ * Author: Evirir
+ * Description: Segment tree with lazy propagation.
+ * Memory: O(log N) per update/query.
+ * Status: Used in many contests.
+ */
 #pragma once
 
 class LazySegmentTree {

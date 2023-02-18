@@ -1,5 +1,7 @@
 /**
- * Description: Examples: cout<<rng()<<'\n'; cout<<dis(rng)<<'\n';
+ * Author: Evirir
+ * Description: rawr o.=.o
+ * Usage: rng() to generate random number, dis(rng) to use distribution.
  */
 #pragma once
 

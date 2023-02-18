@@ -1,3 +1,7 @@
+/**
+ * Author: Evirir, zscoder
+ * Description: rawr o.=.o
+ */
 #pragma once
 
 vector<ll> primes, totient, sumdiv, bigdiv, lowprime;

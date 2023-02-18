@@ -1,3 +1,7 @@
+/**
+ * Author: Evirir
+ * Description: rawr o.=.o
+ */
 #pragma once
 
 vector<ll> fact,ifact,inv,pow2;
