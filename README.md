@@ -1,17 +1,9 @@
-# KACTL
+# Evirir's KACTL
 
-This repo hosts KACTL, [KTH](https://en.wikipedia.org/wiki/KTH_Royal_Institute_of_Technology)'s ICPC team reference document.
-It consists of 25 pages of copy-pasteable C++ code, for use in ICPC-style programming competitions.
+This repo hosts [Evirir](https://codeforces.com/profile/Evirir)'s templates in KACTL format.
+It consists of some pages of copy-pasteable C++ code, for use in ICPC-style programming competitions.
 
 See [kactl.pdf](./kactl.pdf) for the final, browsable version, and [content/](./content/) for raw source code.
-
-## Aspirations
-
-KACTL algorithms should be: useful, short, fast enough, well tested, and if relevant, readable and easy to modify.
-They should *not* be overly generic, since code is manually typed and that just adds overhead.
-Due to space issues, we also exclude algorithms that are very common/simple (e.g., Dijkstra), or very uncommon (general weighted matching).
-
-If you feel that something is missing, could be cleaned up, or notice a bug, please file an issue or [send a pull request](https://help.github.com/articles/fork-a-repo/)!
 
 ## Customizing KACTL
 
@@ -59,8 +51,6 @@ KACTL aims for a high level of confidence in algorithm correctness.
 Testing is done both on online judges and (for newer algorithms) with stress tests
 that compare output to a more naive algorithm for a large amount of randomly generated cases.
 These tests live in the `stress-tests` directory, and are run with CI on every commit. The CI also verifies that all headers compile (except for an exclude list in `docs/scripts/skip_headers`) and that the latex compiles.
-
-`old-unit-tests` contains a couple of broken unit tests, last touched about ten years ago.
 
 ## License
 
